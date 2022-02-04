@@ -7363,4 +7363,5 @@
   <block id="2f86f502c1f6a96ff9ea3a6cde96db44" category="sidebar">REST API를 사용하여 자동화</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">개념</block>
   <block id="c16c43065a548034a76faadb18015c27" category="sidebar">SnapCenter 역할 기반 액세스 제어(RBAC)</block>
+  <block id="bbbbcb8f41827abddd8ec6151fdf9e99" category="sidebar">SnapCenter 소프트웨어</block>
 </blocks>
