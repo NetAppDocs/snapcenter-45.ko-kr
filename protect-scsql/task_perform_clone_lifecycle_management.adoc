@@ -92,7 +92,7 @@ NOTE: 가상 환경(VMDK/RDM)의 경우 마운트 지점이 전용 디스크인�
 NOTE: 이메일 알림의 경우 GUI 또는 PowerShell 명령 Set-SmtpServer를 사용하여 SMTP 서버 세부 정보를 지정해야 합니다.
 
 +
-EMS의 경우 를 참조할 수 있습니다 https://docs.netapp.com/us-en/snapcenter/admin/concept_manage_ems_data_collection["EMS Data 수집 관리"]
+EMS의 경우 를 참조할 수 있습니다 https://docs.netapp.com/us-en/snapcenter-45/admin/concept_manage_ems_data_collection.html["EMS Data 수집 관리"]
 
 . 요약을 검토하고 * Finish * 를 클릭합니다.
 

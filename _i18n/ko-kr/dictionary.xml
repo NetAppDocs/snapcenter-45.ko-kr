@@ -434,7 +434,6 @@
   <block id="5bdaa230bd223b63ee44dc6865402ddb" category="paragraph">CA 인증서를 구성하고 SnapCenter 서버 및 해당 플러그인 호스트에 CA 인증서를 배포해야 합니다. 플러그인에 대해 CA 인증서 유효성 검사를 활성화해야 합니다.</block>
   <block id="260d48875b5f8dd6df118d96f41fae32" category="list-text">run_Set-SmCertificateSettings_cmdlet을 사용하여 CA 인증서를 활성화하거나 비활성화할 수 있습니다.</block>
   <block id="0b8e4c21643d060ddc3ab8b77952d58c" category="list-text">_get-SmCertificateSettings_를 사용하여 플러그인의 인증서 상태를 표시할 수 있습니다.</block>
-  <block id="55f083ba6455ee857592fe48038db650" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block>.</block>
   <block id="e3496f6d2696003cd08139c96386cc45" category="list-text">왼쪽 탐색 창에서 * 호스트 * 를 클릭합니다.</block>
   <block id="1fb1c7da13751553d9822a326bcffe06" category="list-text">호스트 페이지에서 * 관리되는 호스트 * 를 클릭합니다.</block>
   <block id="c59169129dc76fe856feed46d028c5f7" category="list-text">단일 또는 여러 플러그인 호스트를 선택합니다.</block>
@@ -722,7 +721,6 @@
   <block id="eb324a0bcd793bce95da852c11a1a568" category="paragraph">_Get-ChildItem-Path 인증:\LocalMachine\My_</block>
   <block id="4a258e7f05f08d57a4acdbacea054638" category="list-text">엄지손가락 지문을 복사합니다.</block>
   <block id="caef6d3f9e7cdd9ed1d3eaabe29db549" category="summary">사용자 지정 플러그인 리소스를 보호하려면 SnapCenter 사용자 지정 플러그인을 설치하고 설정해야 합니다.</block>
-  <block id="299b0e289b8c6b18ae4948ce9c8d828b" category="doc">SnapCenter 사용자 지정 플러그인을 설치합니다</block>
   <block id="86f7f637d3819a7b4814644b7f8d8972" category="image-alt">SCC 설치 - 워크플로우를 구성합니다</block>
   <block id="d61e736bc78dc6b6bef444a82078d1f7" category="summary">작업 페이지를 사용하여 SnapCenter 플러그인 패키지 설치 진행률을 모니터링할 수 있습니다. 설치 진행 상황을 확인하여 설치 완료 시기 또는 문제가 있는지 확인할 수 있습니다.</block>
   <block id="36c1f2ec62294c41aad60383fd84873d" category="doc">사용자 지정 플러그인 설치 상태를 모니터링합니다</block>
@@ -2072,7 +2070,6 @@
   <block id="d04228e20798411b28cae6cb653df92c" category="list-text">SnapCenter 서버 간에 페일오버가 발생하고 기존 SnapCenter 세션도 있는 경우 브라우저를 닫고 SnapCenter에 다시 로그온해야 합니다.</block>
   <block id="9095768bd723dca6aad8c82ad7df94fb" category="list-text">NLB 또는 F5(Load Balancer Setup)에서 NLB 또는 F5 노드에 의해 부분적으로 확인된 노드를 추가하고 SnapCenter 노드가 이 노드에 연결할 수 없는 경우 SnapCenter 호스트 페이지는 호스트 다운과 실행 상태 사이를 자주 전환합니다. 이 문제를 해결하려면 두 SnapCenter 노드가 모두 NLB 또는 F5 노드의 호스트를 해결할 수 있는지 확인해야 합니다.</block>
   <block id="061e7171f662c103e082fe0f01a9e8d7" category="summary">워크플로 이미지는 SnapCenter 서버를 설치하고 구성하는 단계를 보여 줍니다.</block>
-  <block id="6f550466a69bad21f11ab99fc12db497" category="doc">워크플로를 설치합니다</block>
   <block id="1b6e4426f8c688c2d09195bf31d0242c" category="paragraph">워크플로우는 SnapCenter 서버를 설치하고 구성하는 데 필요한 여러 작업을 보여 줍니다.</block>
   <block id="354c84f19db927b615f7e75880c69840" category="image-alt">SnapCenter 서버를 설치합니다</block>
   <block id="21b55e1babd986a5f3ed39019361ea07" category="summary">VMware 환경에서 Microsoft Windows용 SnapCenter 플러그인을 사용하여 LUN을 생성 및 관리하고 스냅샷 백업 복사본을 관리할 수 있습니다.</block>
@@ -3280,7 +3277,6 @@
   <block id="fee0bec9fecb6576229640dcf9eec620" category="paragraph">SnapCenter에서 호스트를 제거하면 SnapCenter는 호스트를 제거하기 전에 호스트에 있는 모든 플러그인 패키지를 제거합니다.</block>
   <block id="cd9cae3233179ab0aa5b93a449869d50" category="list-text">SnapCenter GUI는 한 번에 하나의 호스트에서 플러그인을 제거합니다.</block>
   <block id="e4b51b04ea7a4e9b027ffb18024a9938" category="paragraph">SnapCenter GUI를 사용하는 경우 한 번에 하나의 호스트에서만 플러그인을 제거할 수 있습니다. 그러나 여러 제거 작업을 동시에 실행할 수 있습니다.</block>
-  <block id="97235612d6e9ec92b744588acea38c93" category="paragraph">또한 _Uninstall-SmHostPackage_cmdlet 및 필수 매개 변수를 사용하여 여러 호스트에서 플러그인을 제거할 수도 있습니다. cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block>.</block>
   <block id="a4ad00e40c8d026de37f699c1cdc43f2" category="admonition">SnapCenter 서버가 설치된 호스트에서 Windows용 SnapCenter 플러그인 패키지를 제거하면 SnapCenter 서버 설치가 손상됩니다. SnapCenter 서버가 더 이상 필요하지 않은 경우가 아니면 Windows용 SnapCenter 플러그인 패키지를 제거하지 마십시오.</block>
   <block id="b431698bc085bcde968e1e3d9582578a" category="list-text">관리 호스트 페이지에서 플러그인 또는 플러그인 패키지를 제거할 호스트를 선택합니다.</block>
   <block id="9e8fa339338bb378f91b2bc7b281c6c6" category="list-text">제거하려는 플러그인 옆에 있는 * 제거 * &gt; * 제출 * 을 클릭합니다.</block>
@@ -3321,7 +3317,6 @@
   <block id="c1fb7c552ac7beaf17dc346fda22eff6" category="list-text">리소스 그룹을 제거하면 연결된 모든 스케줄도 제거됩니다.</block>
   <block id="622c9e28dad13fa5c04d47d33d343831" category="list-text">호스트에 다른 호스트와 공유되는 리소스 그룹이 있고 호스트를 삭제하는 경우 리소스 그룹도 삭제됩니다.</block>
   <block id="759ef57c3be2a273728558ce141e699a" category="list-text">사용 중단되거나 연결할 수 없는 플러그인 호스트를 제거하려면 _Remove-SmHost_cmdlet을 사용해야 합니다.</block>
-  <block id="768d88b8ddf587032dc8848808664398" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block></block>
   <block id="40b2be8df06289f2b15c3ba4ee7adb9d" category="list-text">호스트를 제거하는 데 필요한 시간은 백업 수와 보존 설정에 따라 달라집니다. 이는 각 컨트롤러에서 스냅샷 복사본이 삭제되고 메타데이터가 정리되기 때문입니다.</block>
   <block id="5d892beace7b1624b071044ece982dcc" category="list-text">제거할 호스트를 선택한 다음 * 제거 * 를 클릭합니다.</block>
   <block id="19355742858cf70570e1a01c80a490ab" category="list-text">Oracle RAC 클러스터의 경우 클러스터의 모든 호스트에서 SnapCenter 소프트웨어를 제거하려면 * 클러스터의 모든 호스트 포함 * 을 선택합니다.</block>
@@ -3671,7 +3666,6 @@
   <block id="14b1f939d4d6ad1f9002f584e1e54fa8" category="paragraph">예를 들어 기본 스냅샷 복사본의 보존 기간이 7일이고 보조 스냅샷 복사본의 보존 기간이 45일이고 45일이 지난 후 모든 백업을 삭제한 경우 리소스 그룹과 이전 MDC 리소스를 삭제해야 합니다.</block>
   <block id="7b61486d739fb4f1d37092b600cea0e2" category="paragraph"><block ref="7b61486d739fb4f1d37092b600cea0e2" category="inline-link-macro-rx"></block></block>
   <block id="d03608911fb0f378ca59b86a32adfb17" category="summary">SAP HANA 데이터베이스를 보호하려면 SAP HANA 데이터베이스용 SnapCenter 플러그인을 설치하고 설정해야 합니다.</block>
-  <block id="56a0f778b7f57042bb66476d29945940" category="doc">SAP HANA 데이터베이스용 SnapCenter 플러그인을 설치합니다</block>
   <block id="8eb6eae2f08f541d02277c6746c4fa05" category="image-alt">SAP HANA 설치 구성 워크플로우</block>
   <block id="624da959c6b9ec232f2bebd4c11e271a" category="summary">백업 유형은 생성할 백업 유형을 지정합니다. SnapCenter는 SAP HANA 데이터베이스용 파일 기반 백업 및 스냅샷 복사본 기반 백업 유형을 지원합니다.</block>
   <block id="2a681580cba5d0bac1fe8b6665a6a47e" category="doc">지원되는 백업 유형입니다</block>
@@ -4450,7 +4444,6 @@
   <block id="847f76b3c1f78960c8aee5925dc8bb94" category="list-text">Script* 페이지에서 각각 클론 작업 전후에 실행해야 하는 ppt 또는 postscript의 스크립트 시간 제한, 경로 및 인수를 입력합니다.</block>
   <block id="cd580f0c35d4c37236f3153c15452b6f" category="paragraph">기본 스크립트 시간 초과는 60초입니다.</block>
   <block id="914e3ed381a18db751f3d27cad180ad7" category="paragraph">또한 보낸 사람 및 받는 사람 전자 메일 주소와 전자 메일의 제목도 지정해야 합니다. 수행된 클론 작업의 보고서를 첨부하려면 * 작업 보고서 연결 * 을 선택합니다.</block>
-  <block id="c07bc6afd837580ac94b8ba64ed4462f" category="paragraph">EMS의 경우 를 참조할 수 있습니다<block ref="bf71d06d94476a49fc451638041a04a3" category="inline-link-rx"></block></block>
   <block id="b8ceb1eaf0d60af03679989562024d6b" category="paragraph">클론이 생성된 후에는 이름을 바꿀 수 없습니다.</block>
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">SQL Server 데이터베이스, 인스턴스 또는 가용성 그룹을 백업합니다</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
@@ -5006,7 +4999,6 @@
   <block id="d687c5d710656984c3ed7b21d450d2bc" category="list-text">필요한 경우 하위 디렉토리를 선택합니다.</block>
   <block id="f12114bdb8ab18be62b5bcb364a98685" category="paragraph">사전 검사 건너뛰기 * 확인란을 선택하지 않은 경우 호스트가 플러그인 설치 요구사항을 충족하는지 여부를 확인합니다. 디스크 공간, RAM, PowerShell 버전, .NET 버전, 위치(Windows 플러그인의 경우) 및 Java 버전(Linux 플러그인의 경우)은 최소 요구 사항에 따라 검증됩니다. 최소 요구 사항이 충족되지 않으면 적절한 오류 또는 경고 메시지가 표시됩니다.</block>
   <block id="230797cd257f4279279a678587ed7d3e" category="summary">SQL Server 데이터베이스를 보호하려면 Microsoft SQL Server용 SnapCenter 플러그인을 설치하고 설정해야 합니다.</block>
-  <block id="f2307f08324f486f71f2209e1d4e0d5f" category="doc">Microsoft SQL Server용 SnapCenter 플러그인 워크플로우를 설치합니다</block>
   <block id="33666019cac43e63f53db79cad8f33ac" category="image-alt">scsql 설치 워크플로우 구성</block>
   <block id="51d95bab000b8bd5e8f9d83c3f25d453" category="summary">다시 시딩은 Availability Group\(AG\) 데이터베이스를 복원하는 옵션입니다. 보조 데이터베이스가 AG의 기본 데이터베이스와 동기화되지 않으면 보조 데이터베이스를 다시 시드할 수 있습니다.</block>
   <block id="951ead00aca07936d7cbe2d0eaf3bdde" category="doc">가용성 그룹 데이터베이스를 다시 시딩합니다</block>
@@ -5203,7 +5195,6 @@
   <block id="8ab00376f11ae4d62cc80dab05f617ea" category="doc">SQL Server용 플러그인의 백업 보존 옵션</block>
   <block id="4a33fcf6d48bb7f648ebc49217cba162" category="summary">복원 워크플로에는 계획, 복원 작업 수행 및 작업 모니터링이 포함됩니다.</block>
   <block id="1ef6e64eb14d3b262db62b7d313ebbbe" category="summary">Oracle 데이터베이스를 보호하려면 Oracle 데이터베이스용 SnapCenter 플러그인을 설치하고 설정해야 합니다.</block>
-  <block id="829ab3d9655362e52e689933510a1e37" category="doc">Oracle Database용 플러그인 워크플로우를 설치합니다</block>
   <block id="a19d33029ae6794cb5370530a85b7fe4" category="image-alt">SCO 설치 워크플로우 구성</block>
   <block id="f0bf0f39170a5cc3bd7cc74a25e2e59d" category="summary">SnapCenter 플러그인 로더 서비스는 Linux 또는 AIX용 플러그인 패키지를 로드하여 SnapCenter 서버와 상호 작용합니다. SnapCenter 플러그인 로더 서비스는 SnapCenter용 플러그인 패키지 또는 AIX용 SnapCenter 플러그인 패키지를 설치할 때 설치됩니다.</block>
   <block id="58217bc6f1b79fc60156611e99bd9aa8" category="doc">SnapCenter 플러그인 로더 서비스를 구성합니다</block>
@@ -7301,7 +7292,6 @@
   <block id="3d8a9e359cdf4b956d6850836e03a25e" category="sidebar">맞춤형 플러그인의 백업 전략</block>
   <block id="eada736bfcfe3be151f853e6f08f6d26" category="sidebar">네이티브 스타일</block>
   <block id="08759ac851b4d644eddfd819f2b366e9" category="sidebar">SnapCenter 사용자 지정 플러그인 설치를 준비합니다</block>
-  <block id="16a0da04ed4ea27dbbb965b612c6b369" category="sidebar">SnapCenter 사용자 지정 플러그인에 대한 워크플로우를 설치합니다</block>
   <block id="834849dd07442651b1ce8092c92186f0" category="sidebar">SnapCenter 사용자 지정 플러그인을 설치합니다</block>
   <block id="e94a41320f7b470ab4c94c28575be94e" category="sidebar">CA 인증서를 구성합니다</block>
   <block id="0e1b3005c7d7fef8012117ae579df248" category="sidebar">워크플로를 백업합니다</block>
@@ -7312,7 +7302,6 @@
   <block id="16a46d711b809ec337c7f5488089048a" category="sidebar">Exchange 리소스를 백업합니다</block>
   <block id="e846bcfd3a099fef65a4bf829013b44e" category="sidebar">Exchange 리소스를 복구합니다</block>
   <block id="ab5f4e39159ac71e7f3f1e7080905a20" category="sidebar">SnapCenter 서버 설치</block>
-  <block id="8080a0ca91a92bcdd7db001b9dd7d378" category="sidebar">워크플로 설치</block>
   <block id="f514139bd8bb4cc318cbbff458dd2226" category="sidebar">SnapCenter 서버 설치를 준비합니다</block>
   <block id="bb8e9cdba9e13f92c0ca73c3ae3f6c05" category="sidebar">스토리지 가상 머신 접속 및 자격 증명</block>
   <block id="d816b0b5150b290e2a4a44bdb570d328" category="sidebar">CA 인증서를 가져옵니다</block>
@@ -7329,7 +7318,6 @@
   <block id="883135fe64e6d1e34b5f9e436f840927" category="sidebar">SAP HANA 데이터베이스를 위한 백업 전략</block>
   <block id="01feedeb5589791154fb6933172b117e" category="sidebar">SAP HANA 데이터베이스용 복원 및 복구 전략</block>
   <block id="b121f809528d9b2de8b169c1a245c274" category="sidebar">SAP HANA 데이터베이스용 SnapCenter 플러그인 설치를 준비합니다</block>
-  <block id="8df068e4b07db24cbb362d904ec51ab4" category="sidebar">SAP HANA 데이터베이스용 SnapCenter 플러그인 워크플로우를 설치합니다</block>
   <block id="abad280cf46d16a0bab0a51ae1663cf8" category="sidebar">SAP HANA 데이터베이스용 SnapCenter 플러그인을 설치합니다</block>
   <block id="d03427303a92403b89bef9b602954bc0" category="sidebar">리소스를 검색하고 데이터 보호를 위한 멀티테넌트 데이터베이스 컨테이너를 준비합니다</block>
   <block id="6119871227cfd0ac53fa00369e5ea153" category="sidebar">SnapCenter 작업 페이지에서 백업 작업을 모니터링합니다</block>
@@ -7363,4 +7351,14 @@
   <block id="c16c43065a548034a76faadb18015c27" category="sidebar">SnapCenter 역할 기반 액세스 제어(RBAC)</block>
   <block id="bbbbcb8f41827abddd8ec6151fdf9e99" category="sidebar">SnapCenter 소프트웨어</block>
   <block id="699f1c0496b9360a6686498114b0be37" category="paragraph">FAS, AFF 및 Amazon FSx에 필요합니다</block>
+  <block id="1360b9c3f96e4bcb224d198ae827046e" category="doc">SAP HANA 데이터베이스용 SnapCenter 플러그인 설치 워크플로우</block>
+  <block id="916c2654d1879ff989ca995cf30c4ee0" category="paragraph">EMS의 경우 를 참조할 수 있습니다<block ref="04e4e598b45356511dd89b0fd94b6706" category="inline-link-rx"></block></block>
+  <block id="56088cfae9d226d8be7d57fa8b8c6b7e" category="doc">Microsoft SQL Server용 SnapCenter 플러그인 설치 워크플로</block>
+  <block id="706c1d4933d296d42d61b064f4e637ae" category="doc">설치 워크플로우</block>
+  <block id="1cd8b2345e3fc8629233e588fdab2761" category="doc">Oracle 데이터베이스용 SnapCenter 플러그인 설치 워크플로우</block>
+  <block id="31db120ce3e7f7d5198a060e87905d01" category="doc">Microsoft Exchange Server용 SnapCenter 플러그인 설치 워크플로우</block>
+  <block id="d9ac41630ae6a20177466403e2d328d8" category="doc">SnapCenter 맞춤형 플러그인의 설치 워크플로우</block>
+  <block id="15e336a500bbc8b78c88e27a721b8803" category="doc">Microsoft Windows용 SnapCenter 플러그인 설치 워크플로</block>
+  <block id="b14fc44cfe032bef907580bf7aae09ed" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block></block>
+  <block id="3508e18c47b24e9df15eebd5671549ba" category="paragraph">또한 _Uninstall-SmHostPackage_cmdlet 및 필수 매개 변수를 사용하여 여러 호스트에서 플러그인을 제거할 수도 있습니다. cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block>.</block>
 </blocks>
