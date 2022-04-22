@@ -5,6 +5,7 @@ keywords: backup types, cloning type, clone name, limitations
 summary: 데이터베이스를 복제하기 전에 전략을 정의하면 클론 생성 작업이 성공적으로 수행됩니다. 
 ---
 = Oracle 데이터베이스에 대한 클론 전략 정의
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

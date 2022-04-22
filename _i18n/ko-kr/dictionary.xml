@@ -4601,7 +4601,6 @@
   <block id="3c68b24e5b4018140925233153bb6538" category="admonition">검증 서버에 스토리지 접속이 없는 경우 디스크 마운트 실패 오류가 발생하면서 확인 작업이 실패합니다.</block>
   <block id="0f0ea16fe5c3ccaa1f1c239674409d15" category="list-text">백업 후 확인 * 을 선택하여 백업을 확인합니다.</block>
   <block id="3bbda889c732b2c1d0be2a3446bf0fc3" category="paragraph">암시적 리소스 그룹이 만들어집니다. 이 정보는 * 사용자 액세스 * 페이지에서 해당 사용자 또는 그룹을 선택하여 볼 수 있습니다. 암시적 리소스 그룹 유형은 "리소스"입니다.</block>
-  <block id="6b82c658b31dd0db1cb85c0f9d0dd56c" category="paragraph"><block ref="6b82c658b31dd0db1cb85c0f9d0dd56c" category="inline-link-macro-rx"></block></block>
   <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">TCP_TIMEOUT의 지연으로 인해 MySQL 연결 오류로 인해 백업 작업이 실패합니다</block>
   <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">Windows 스케줄러 오류로 인해 백업이 실패합니다</block>
@@ -7361,4 +7360,5 @@
   <block id="15e336a500bbc8b78c88e27a721b8803" category="doc">Microsoft Windows용 SnapCenter 플러그인 설치 워크플로</block>
   <block id="b14fc44cfe032bef907580bf7aae09ed" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block></block>
   <block id="3508e18c47b24e9df15eebd5671549ba" category="paragraph">또한 _Uninstall-SmHostPackage_cmdlet 및 필수 매개 변수를 사용하여 여러 호스트에서 플러그인을 제거할 수도 있습니다. cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block>.</block>
+  <block id="51fb25555c87830dd2151ad5f3b7a845" category="paragraph"><block ref="51fb25555c87830dd2151ad5f3b7a845" category="inline-link-macro-rx"></block></block>
 </blocks>
