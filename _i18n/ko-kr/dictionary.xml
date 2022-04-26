@@ -849,7 +849,6 @@
   <block id="adce1db3350f0ed81a76733f84d8d683" category="list-text">메시지 큐 서비스가 실행 중인지 확인해야 합니다.</block>
   <block id="495a029c5d7c250f801f4d0c65513c50" category="list-text">그룹 GMSA(Managed Service Account)를 사용하는 경우 관리자 권한으로 GMSA를 구성해야 합니다.</block>
   <block id="d1556c9da336be030540adcf58889977" category="inline-link-macro">사용자 지정 응용 프로그램에 대해 Windows Server 2012 이상에서 그룹 관리 서비스 계정을 구성합니다</block>
-  <block id="7760830a49bc2ffc8c6db5a38cec828f" category="paragraph"><block ref="7760830a49bc2ffc8c6db5a38cec828f" category="inline-link-macro-rx"></block></block>
   <block id="302ca62990c674aa6f608e6444c00482" category="paragraph">SnapCenter 서버를 다른 SnapCenter 서버에 플러그인 호스트로 추가할 수 없습니다.</block>
   <block id="bceac0a8fa4156f8efbbf85fb76e4953" category="paragraph">WSFC(클러스터에 플러그인)를 설치하면 클러스터의 모든 노드에 플러그인이 설치됩니다.</block>
   <block id="92167459928f7cb7035350c0b52437da" category="list-text">맨 위에 * Managed Hosts * 탭이 선택되어 있는지 확인합니다.</block>
@@ -1595,7 +1594,6 @@
   <block id="45e52ea61331adeddb8fcba96510d245" category="list-text">플러그인 설치 및 제거 권한이 있는 역할(예: SnapCenter 관리자)에 할당된 사용자여야 합니다</block>
   <block id="f43b8555947d4751531f2048f4ceb68f" category="list-text">메시지 큐 서비스가 실행되고 있어야 합니다.</block>
   <block id="5da8a38d0d164ee119a4369bd402f7e7" category="inline-link-macro">Windows Server 2012 이상에서 그룹 관리 서비스 계정을 구성합니다</block>
-  <block id="c3d3d7d361f2929e16e2c819af868aee" category="list-text">그룹 GMSA(Managed Service Account)를 사용하는 경우 관리자 권한으로 GMSA를 구성해야 합니다. 자세한 내용은 을 참조하십시오<block ref="de44f57898ffbf94587de066666e509e" category="inline-link-macro-rx"></block>.</block>
   <block id="fdb65cf918a8b520afc6b815f2425d07" category="paragraph">호스트를 추가하고 개별 호스트 또는 클러스터에 대한 플러그인 패키지를 설치할 수 있습니다. 클러스터(Exchange DAG)에 플러그인을 설치하는 경우 일부 노드에 NetApp LUN에 데이터베이스가 없는 경우에도 클러스터의 모든 노드에 플러그인이 설치됩니다.</block>
   <block id="c20a8a11a419d74017da773b8a54f9ff" category="paragraph">Exchange용 플러그인은 Windows용 SnapCenter 플러그인 패키지에 따라 다르며 버전이 같아야 합니다. Exchange용 플러그인 설치 중에 Windows용 SnapCenter 플러그인 패키지가 기본적으로 선택되어 있으며 VSS 하드웨어 공급자와 함께 설치됩니다.</block>
   <block id="59f72658a4a9eeae3fc1d176e55f407a" category="paragraph">Microsoft Exchange Server용 SnapManager와 Windows용 SnapDrive가 이미 설치되어 있는 경우 Exchange용 플러그인을 동일한 Exchange Server에 설치하려면 Exchange용 플러그인 및 Windows용 SnapCenter 플러그인 패키지와 함께 설치된 VSS 하드웨어 공급자와 호환되지 않으므로 Windows용 SnapDrive에서 사용하는 VSS 하드웨어 공급자를 등록 취소해야 합니다.</block>
@@ -4447,7 +4445,6 @@
   <block id="b8ceb1eaf0d60af03679989562024d6b" category="paragraph">클론이 생성된 후에는 이름을 바꿀 수 없습니다.</block>
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">SQL Server 데이터베이스, 인스턴스 또는 가용성 그룹을 백업합니다</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
-  <block id="77a401672d28681f3a520de107c9ed51" category="paragraph"><block ref="77a401672d28681f3a520de107c9ed51" category="inline-link-macro-rx"></block></block>
   <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link">클론 작업이 실패하거나 기본 TCP_TIMEOUT 값으로 완료하는 데 시간이 더 오래 걸릴 수 있습니다</block>
   <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">장애 조치 클러스터 인스턴스 데이터베이스 클론에 장애가 발생합니다</block>
@@ -4659,7 +4656,6 @@
   <block id="e8d616df7d87b5ecbfca2c2859a9c91e" category="list-text">복구 작업을 수행한 후 실행할 선택적 스크립트를 지정합니다.</block>
   <block id="c00abdc969617f536cb93b03d1479c4d" category="list-text">모니터 * &gt; * 작업 * 페이지를 사용하여 복원 프로세스를 모니터링합니다.</block>
   <block id="6924edabeae66398839af50da876447a" category="inline-link-macro">PowerShell cmdlet을 사용하여 리소스 복원 및 복구</block>
-  <block id="455f3e406c536ec723cdf3bf3192c0e5" category="paragraph"><block ref="455f3e406c536ec723cdf3bf3192c0e5" category="inline-link-macro-rx"></block></block>
   <block id="86cc84259391356d6bc58883c4b14046" category="inline-link-macro">보조 스토리지에서 SQL Server 데이터베이스를 복구합니다</block>
   <block id="69bb12bd720ba41593c0fadfa768b82e" category="paragraph"><block ref="69bb12bd720ba41593c0fadfa768b82e" category="inline-link-macro-rx"></block></block>
   <block id="9660edb91fac8702aaa8095506c95490" category="summary">백업 작업을 생성하기 전에 백업 전략을 정의하면 데이터베이스를 성공적으로 복원하거나 복제하는 데 필요한 백업이 있는지 확인할 수 있습니다. 서비스 수준 계약\(SLA\), 복구 시간 목표\(RTO\) 및 복구 시점 목표\(RPO\)에 따라 백업 전략이 크게 결정됩니다.</block>
@@ -4976,7 +4972,6 @@
   <block id="afaa5b2bc1434ec7ffc7373a3d37ff03" category="list-text">Windows 호스트에 플러그인을 설치할 때 기본 제공되지 않은 자격 증명을 지정하면 호스트에서 UAC를 비활성화해야 합니다.</block>
   <block id="b5eb0b5304f9fc2eda1c4758804a309a" category="list-text">메시지 큐 서비스가 실행 중인지 확인해야 합니다.</block>
   <block id="005e0b40f0357593974211c0506e1021" category="inline-link-macro">Windows Server 2012 이상에서 그룹 관리 서비스 계정을 SQL용으로 구성합니다</block>
-  <block id="cbb9319067916a535f7b003c1a70b83f" category="paragraph"><block ref="cbb9319067916a535f7b003c1a70b83f" category="inline-link-macro-rx"></block></block>
   <block id="e0a6a8624a69b68bc0839f233664cd97" category="paragraph">호스트를 추가하고 개별 호스트 또는 클러스터에 대한 플러그인 패키지를 설치할 수 있습니다. 클러스터 또는 WSFC(Windows Server Failover Clustering)에 플러그인을 설치하는 경우 클러스터의 모든 노드에 플러그인이 설치됩니다.</block>
   <block id="e11f6d0c6669ff79495717e9f38e9fc3" category="paragraph">호스트 관리에 대한 자세한 내용은 을 참조하십시오 <block ref="801cfa467bb6d1aeeb6375d305370903" category="inline-link-macro-rx"></block>.</block>
   <block id="1c92ab8626c20e01298d27cdffde2996" category="list-text">호스트 * 페이지에서 다음을 수행합니다.</block>
@@ -6438,7 +6433,6 @@
   <block id="6999d09aed9c7b160e001c5345554e29" category="doc">호스트를 추가하고 Microsoft Windows용 SnapCenter 플러그인을 설치합니다</block>
   <block id="7cfe72b14626cbdfa82c7d1d900586aa" category="list-text">SnapCenter 사용자는 Windows 서버의 "서비스로 로그온" 역할에 추가해야 합니다.</block>
   <block id="634521473d8c5fdebcafa0c217efa6b5" category="inline-link-macro">Windows Server 2012 이상에서 Windows 파일 시스템용 그룹 관리 서비스 계정을 구성합니다</block>
-  <block id="8d338c95545ac01f94f754b10be02dec" category="paragraph"><block ref="8d338c95545ac01f94f754b10be02dec" category="inline-link-macro-rx"></block></block>
   <block id="cce76c1c114e69fd9b5ed7b130742034" category="list-text">Windows 플러그인</block>
   <block id="a561a8020c6cf9c0bfcf2c0057ac1550" category="list-text">Microsoft Exchange Server를 참조하십시오</block>
   <block id="78898e52fcbdc5337204a384f2456d4f" category="list-text">Microsoft SQL Server를 참조하십시오</block>
@@ -7361,4 +7355,11 @@
   <block id="b14fc44cfe032bef907580bf7aae09ed" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block></block>
   <block id="3508e18c47b24e9df15eebd5671549ba" category="paragraph">또한 _Uninstall-SmHostPackage_cmdlet 및 필수 매개 변수를 사용하여 여러 호스트에서 플러그인을 제거할 수도 있습니다. cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block>.</block>
   <block id="51fb25555c87830dd2151ad5f3b7a845" category="paragraph"><block ref="51fb25555c87830dd2151ad5f3b7a845" category="inline-link-macro-rx"></block></block>
+  <block id="30e7f68451a94c7e462c35be6a21cef9" category="paragraph">SnapCenter * 호스트 추가 * 페이지를 사용하여 Windows 호스트를 추가할 수 있습니다. Exchange용 플러그인은 지정된 호스트에 자동으로 설치됩니다. 이는 플러그인을 설치하는 데 권장되는 방법입니다. 호스트를 추가하고 개별 호스트 또는 클러스터에 대한 플러그인을 설치할 수 있습니다.</block>
+  <block id="aafa52eb5dcc479a1cd4f3a47f9aaab1" category="list-text">그룹 GMSA(Managed Service Account)를 사용하는 경우 관리자 권한으로 GMSA를 구성해야 합니다. 자세한 내용은 을 참조하십시오<block ref="ac4ee76cebada45b93566fc9fb30e5f6" category="inline-link-macro-rx"></block>.</block>
+  <block id="d2f75a69047fa1d93423f0ebca0e578e" category="paragraph"><block ref="d2f75a69047fa1d93423f0ebca0e578e" category="inline-link-macro-rx"></block></block>
+  <block id="b7ee450a891722e2248bf6edbef84f21" category="paragraph"><block ref="b7ee450a891722e2248bf6edbef84f21" category="inline-link-macro-rx"></block></block>
+  <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
+  <block id="7a679a1d48731136f64e6e6d38429002" category="paragraph"><block ref="7a679a1d48731136f64e6e6d38429002" category="inline-link-macro-rx"></block></block>
+  <block id="8eea6d6db8756ac6f485ef882956153e" category="paragraph"><block ref="8eea6d6db8756ac6f485ef882956153e" category="inline-link-macro-rx"></block></block>
 </blocks>
