@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>리소스, 리소스 그룹 및 정책을 사용하여 SQL Server를 보호하는 방법</title>
+  <title>Windows Server 2012 이상에서 GMSA를 구성합니다</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="리소스, 리소스 그룹 및 정책을 사용하여 SQL Server를 보호하는 방법" />
+  <meta property="og:title" content="Windows Server 2012 이상에서 GMSA를 구성합니다" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/ko-kr/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html" />
-	<meta property="og:description" content="SnapCenter를 사용하기 전에 수행할 백업, 클론 및 복원 작업과 관련된 기본 개념을 이해하는 것이 좋습니다. 서로 다른 작업을 위해 리소스, 리소스 그룹 및 정책과 상호 작용합니다." />
+	<meta property="og:url" content="https://docs.netapp.com/ko-kr/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" />
+	<meta property="og:description" content="Windows Server 2012 이상을 사용하면 관리되는 도메인 계정에서 자동화된 서비스 계정 암호 관리를 제공하는 그룹 GMSA\(Managed Service Account)를 만들 수 있습니다." />
   <meta property="og:image" content="https://docs.netapp.com/ko-kr/snapcenter-45/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="SnapCenter를 사용하기 전에 수행할 백업, 클론 및 복원 작업과 관련된 기본 개념을 이해하는 것이 좋습니다. 서로 다른 작업을 위해 리소스, 리소스 그룹 및 정책과 상호 작용합니다.">
-  <meta name="keywords" content=" SnapCenter Plug-in for SQL Server"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Windows Server 2012 이상을 사용하면 관리되는 도메인 계정에서 자동화된 서비스 계정 암호 관리를 제공하는 그룹 GMSA\(Managed Service Account)를 만들 수 있습니다.">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/ko-kr/snapcenter-45/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -179,21 +179,21 @@
 
   <ul class="custom-dropdown-menu"><li>
       
-      <a href="https://docs.netapp.com/ko-kr/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html" target="_self">
+      <a href="https://docs.netapp.com/ko-kr/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" target="_self">
         <span translate="no" class="notranslate"><span>SnapCenter 소프트웨어</span><span class="version"> 4.5</span></span>
       </a>
                      
     </li>
     <li>
       
-      <a href="https://docs.netapp.com/ko-kr/snapcenter/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html" target="_self">
+      <a href="https://docs.netapp.com/ko-kr/snapcenter/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" target="_self">
         <span translate="no" class="notranslate"><span>SnapCenter 소프트웨어</span><span class="version"> 4.6</span></span>
       </a>
                      
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-45/issues/new?body=Page%3A%20[리소스, 리소스 그룹 및 정책을 사용하여 SQL Server를 보호하는 방법](https://docs.netapp.com/ko-kr/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/snapcenter-45/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-45/blob/main/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/snapcenter-45/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/snapcenter-45/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-45/issues/new?body=Page%3A%20[Windows Server 2012 이상에서 GMSA를 구성합니다](https://docs.netapp.com/ko-kr/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/snapcenter-45/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-45/blob/main/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/snapcenter-45/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/snapcenter-45/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -316,13 +316,13 @@
           <ul class="n-menu__list">
             <li class="n-menu__list-column">
               <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                  <a href="https://docs.netapp.com/us-en/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                  <a href="https://docs.netapp.com/ja-jp/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                  <a href="https://docs.netapp.com/ko-kr/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                  <a href="https://docs.netapp.com/zh-cn/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -1035,15 +1035,6 @@
           
 
 
-    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
-  <a target="_blank" href="/ko-kr/snapcenter-45/pdfs/pages/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.pdf" >
-    <img src="/ko-kr/snapcenter-45/images/pdf.png" width="16" height="16"/>
-    PDF of this page
-  </a>
-</li>
-
-</ul>
-  
 
 
 
@@ -2267,6 +2258,15 @@
 
 
 
+    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
+  <a target="_blank" href="/ko-kr/snapcenter-45/pdfs/pages/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.pdf" >
+    <img src="/ko-kr/snapcenter-45/images/pdf.png" width="16" height="16"/>
+    PDF of this page
+  </a>
+</li>
+
+</ul>
+  
 
 
 
@@ -3329,7 +3329,7 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/snapcenter-45/protect-scsql/concept_prerequisites_for_using_snapcenter_plug_in_for_microsoft_sql_server.html">
         Microsoft SQL Server용 SnapCenter 플러그인 사용을 위한 사전 요구 사항
-      </a></li><li class="  active "><a class="na-navbar-padding" href="/ko-kr/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/snapcenter-45/protect-scsql/concept_how_resources_resource_groups_and_policies_are_used_for_protecting_sql_server.html">
         리소스, 리소스 그룹 및 정책을 사용하여 SQL Server를 보호하는 방법
       </a></li></ul></li><li class="subfolders "><a href="#">
         <div class="na-navbar-padding"> SQL Server 데이터베이스, 인스턴스 또는 가용성 그룹을 백업합니다</div>
@@ -3826,7 +3826,7 @@
         호스트를 추가하고 Microsoft Exchange Server용 SnapCenter 플러그인을 설치하기 위한 사전 요구 사항
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/snapcenter-45/protect-sce/task_set_up_credentials_for_the_snapcenter_plug_in_for_windows_sce.html">
         Windows용 SnapCenter 플러그인의 자격 증명을 설정합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html">
+      </a></li><li class="  active "><a class="na-navbar-padding" href="/ko-kr/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html">
         Windows Server 2012 이상에서 GMSA를 구성합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/snapcenter-45/protect-sce/task_add_hosts_and_install_plug_in_for_exchange.html">
         호스트를 추가하고 Exchange용 플러그인을 설치합니다
@@ -4194,55 +4194,130 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">리소스, 리소스 그룹 및 정책을 사용하여 SQL Server를 보호하는 방법</h1>
+  <h1 class="n-doc__component-detail-heading">Windows Server 2012 이상에서 GMSA를 구성합니다</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-22 07:11:22 +0000">04/22/2022</time>
+    <time datetime="2022-04-26 11:21:38 +0000">04/26/2022</time>
     
   
 
 
 </p>
 
-<div class="paragraph lead">
-<p>SnapCenter를 사용하기 전에 수행할 백업, 클론 및 복원 작업과 관련된 기본 개념을 이해하는 것이 좋습니다. 서로 다른 작업을 위해 리소스, 리소스 그룹 및 정책과 상호 작용합니다.</p>
+<div class="paragraph">
+<p>Windows Server 2012 이상을 사용하면 관리되는 도메인 계정에서 자동화된 서비스 계정 암호 관리를 제공하는 그룹 GMSA(Managed Service Account)를 만들 수 있습니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>리소스는 일반적으로 SnapCenter을 사용하여 백업 또는 복제하는 데이터베이스, 데이터베이스 인스턴스 또는 Microsoft SQL Server 가용성 그룹입니다.</p>
+<p>필요한 것 *</p>
 </li>
 <li>
-<p>SnapCenter 리소스 그룹은 호스트 또는 클러스터의 리소스 모음입니다.</p>
+<p>Windows Server 2012 이상의 도메인 컨트롤러가 있어야 합니다.</p>
+</li>
+<li>
+<p>도메인의 구성원인 Windows Server 2012 이상 호스트가 있어야 합니다.</p>
+</li>
+<li>
+<p>단계 *</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>KDS 루트 키를 생성하여 GMSA의 각 개체에 대해 고유한 암호를 생성합니다.</p>
+</li>
+<li>
+<p>각 도메인에 대해 Windows 도메인 컨트롤러에서 Add-KDSRootKey-EffectiveImmediately 명령을 실행합니다</p>
+</li>
+<li>
+<p>GMSA 생성 및 구성:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>사용자 그룹 계정을 만듭니다.</p>
+</li>
+<li>
+<p>그룹에 컴퓨터 개체를 추가합니다.</p>
+</li>
+<li>
+<p>방금 생성한 사용자 그룹을 사용하여 GMSA를 생성합니다.</p>
 <div class="paragraph">
-<p>자원 그룹에 대해 작업을 수행할 때 자원 그룹에 지정한 일정에 따라 자원 그룹에 정의된 자원에 대해 해당 작업을 수행합니다.</p>
+<p>예를 들면, 다음과 같습니다.</p>
 </div>
-<div class="paragraph">
-<p>필요에 따라 단일 리소스 또는 리소스 그룹을 백업할 수 있습니다. 단일 리소스 및 리소스 그룹에 대해 예약된 백업을 수행할 수도 있습니다.</p>
+<div class="literalblock">
+<div class="content">
+<pre> New-ADServiceAccount -name &lt;ServiceAccountName&gt; -DNSHostName &lt;fqdn&gt; -PrincipalsAllowedToRetrieveManagedPassword &lt;group&gt; -ServicePrincipalNames &lt;SPN1,SPN2,…&gt;
+.. Get-ADServiceAccount 명령을 실행하여 서비스 계정을 확인한다.</pre>
+</div>
+</div>
+</li>
+</ol>
 </div>
 </li>
 <li>
-<p>정책은 백업 빈도, 복제 보존, 복제, 스크립트 및 기타 데이터 보호 작업의 특성을 지정합니다.</p>
+<p>호스트에서 GMSA를 구성합니다.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>GMSA 계정을 사용할 호스트에서 Windows PowerShell용 Active Directory 모듈을 활성화합니다.</p>
 <div class="paragraph">
-<p>자원 그룹을 만들 때 해당 그룹에 대해 하나 이상의 정책을 선택합니다. 단일 리소스에 대해 필요 시 백업을 수행할 때 정책을 선택할 수도 있습니다.</p>
+<p>이렇게 하려면 PowerShell에서 다음 명령을 실행합니다.</p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>PS C:\&gt; Get-WindowsFeature AD-Domain-Services
+
+Display Name                           Name                Install State
+------------                           ----                -------------
+[ ] Active Directory Domain Services   AD-Domain-Services  Available
+
+
+PS C:\&gt; Install-WindowsFeature AD-DOMAIN-SERVICES
+
+Success Restart Needed Exit Code      Feature Result
+------- -------------- ---------      --------------
+True    No             Success        {Active Directory Domain Services, Active ...
+WARNING: Windows automatic updating is not enabled. To ensure that your newly-installed role or feature is
+automatically updated, turn on Windows Update.</pre>
+</div>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>호스트를 다시 시작합니다.</p>
+</li>
+<li>
+<p>PowerShell 명령 프롬프트에서 'Install-AdServiceAccount&lt;GMSA&gt;'를 실행하여 호스트에 GMSA를 설치합니다</p>
+</li>
+<li>
+<p>'Test-AdServiceAccount &lt;GMSA&gt;' 명령을 실행하여 GMSA 계정을 확인합니다</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>호스트에서 구성된 GMSA에 관리 권한을 할당합니다.</p>
+</li>
+<li>
+<p>SnapCenter 서버에서 구성된 GMSA 계정을 지정하여 Windows 호스트를 추가합니다.</p>
+<div class="paragraph">
+<p>SnapCenter 서버는 선택한 플러그인을 호스트에 설치하고 지정된 GMSA는 플러그인 설치 중에 서비스 로그온 계정으로 사용됩니다.</p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
 </div>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>보호하려는_대상_과 이를 보호할 시기를 요일과 시간으로 정의하는 자원 그룹을 생각해 보십시오. 정책을 정의하는 _ 방법 _ 을(를) 보호하려는 것으로 생각해 보십시오. 예를 들어 모든 데이터베이스를 백업하거나 호스트의 모든 파일 시스템을 백업하는 경우 모든 데이터베이스나 호스트의 모든 파일 시스템을 포함하는 리소스 그룹을 생성할 수 있습니다. 그런 다음 리소스 그룹에 일별 정책과 시간별 정책이라는 두 가지 정책을 연결할 수 있습니다. 리소스 그룹을 생성하고 정책을 연결할 때 매일 전체 백업을 수행하고 로그 백업을 매시간 수행하는 다른 일정을 수행하도록 리소스 그룹을 구성할 수 있습니다.</p>
-</div>
-<div class="paragraph">
-<p>다음 그림에서는 데이터베이스 리소스, 리소스 그룹 및 정책 간의 관계를 보여 줍니다.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="../media/scsql_resourcegroup_policy.gif" alt="scsql resourcegroup 정책입니다">
-</div>
 </div>
 
     </article>
