@@ -10,6 +10,6 @@ NOTE: NetApp SnapManager 제품에서 SnapCenter으로 오고 있으며 구성�
 데이터 보호 관계는 운영 스토리지(소스 볼륨)의 데이터를 보조 스토리지(타겟 볼륨)에 복제합니다. 관계를 초기화할 때 ONTAP은 소스 볼륨에서 참조된 데이터 블록을 대상 볼륨으로 전송합니다.
 
 
-NOTE: SnapCenter는 SnapMirror와 SnapVault 볼륨(* Primary * > * Mirror * > * Vault *) 간의 계단식 관계를 지원하지 않습니다. 팬아웃 관계만 사용합니다(* 기본 * > * 미러 *, * 기본 * > * 볼트 *).
+NOTE: SnapCenter는 SnapMirror와 SnapVault 볼륨(* Primary * > * Mirror * > * Vault *) 간의 계단식 관계를 지원하지 않습니다. 팬아웃 관계를 사용해야 합니다.
 
 SnapCenter는 버전에 상관없이 유연한 SnapMirror 관계의 관리를 지원합니다. 버전에 상관없이 유연한 SnapMirror 관계와 설정 방법에 대한 자세한 내용은 를 참조하십시오 http://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.ic-base%2Fresources%2Fhome.html["ONTAP 설명서"^].
