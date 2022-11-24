@@ -196,4 +196,6 @@ vserver show 를 참조하십시오
 
 SVM
 
+MetroCluster 쇼
+
 |===
